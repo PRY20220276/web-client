@@ -9,6 +9,9 @@ This repository is intended to store the source code of the project's web client
 - Commits: [Commitlint with Husky & Commitzen](https://commitlint.js.org/#/)
 - Wireframes: [App Prototypes](https://github.com/PRY20220276/.github/tree/main/wireframes)
 
+## Resources
+- [Commitzen & Commitlint Setup](https://shivarajbakale.com/react/setting-up-commitlint-commitizen/)
+- [Clideo Frontend reference](https://clideo.com/)
 
 ## Live URL 
 Want to see it in action? Production URL:
