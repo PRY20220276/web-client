@@ -17,3 +17,28 @@ This repository is intended to store the source code of the project's web client
 Want to see it in action? Production URL:
 
 Comming Soon!
+
+---
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
