@@ -3,6 +3,8 @@ import App from './App.vue'
 import PrimeVue from 'primevue/config';
 import InputText from 'primevue/inputtext';
 import Button from 'primevue/button';
+import Chip from 'primevue/chip';
+
 import 'primevue/resources/themes/saga-blue/theme.css'       //theme
 import 'primevue/resources/primevue.min.css'                 //core css
 import 'primeicons/primeicons.css'                           //icons
@@ -13,5 +15,6 @@ app.use(PrimeVue);
 // components for prime vue
 app.component('InputText', InputText);
 app.component('Button', Button);
+app.component('Chip', Chip);
 
 app.mount('#app')

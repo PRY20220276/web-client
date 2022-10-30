@@ -1,17 +1,20 @@
 <template>
   <!-- <login />   -->
-  <Header />
+  <!-- <Header /> -->
+  <PitchMessage />
 </template>
 
 <script>
 // import Login from './components/Login.vue';
-import Header from './components/Header.vue'
+// import Header from './components/Header.vue'
+import PitchMessage from "./components/PitchMessage.vue";
 
 export default {
   name: 'App',
   components: {
     // Login,
-    Header
+    // Header,
+    PitchMessage
   }
 }
 </script>
