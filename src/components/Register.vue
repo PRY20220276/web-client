@@ -16,8 +16,16 @@
             <label for="username">Username</label>
           </span>
           <span class="p-float-label">
+            <InputText id="username" type="text" />
+            <label for="username">Email</label>
+          </span>
+          <span class="p-float-label">
             <InputText id="username" type="password" toggleMask/>
             <label for="username">Password</label>
+          </span>
+          <span class="p-float-label">
+            <InputText id="username" type="password" toggleMask/>
+            <label for="username">Repeat Password</label>
           </span>
           <p>create account? <b><a href="#">Sign up!</a></b></p>
           <Button label="Sign in" />
