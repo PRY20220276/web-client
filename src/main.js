@@ -16,11 +16,13 @@ import 'primeicons/primeicons.css'                           //icons
 
 // routes
 import Login from "./components/Login";
-import Services from "./components/Services";
+import Services from "./views/Services";
+import Gallery from "./views/Gallery"
 
 const routes = [
   { path: '/', component: Login },
   { path: '/services', component: Services },
+  { path: '/gallery', component: Gallery },
 ]
 
 const router = createRouter({

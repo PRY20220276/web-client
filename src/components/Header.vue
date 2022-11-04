@@ -7,7 +7,7 @@
     <div class="items">
       <router-link to="/services">Services</router-link>
       <a href="#">Pricing</a>
-      <a href="#">Gallery</a>
+      <router-link to="/gallery">Gallery</router-link>
       <a href="#">My Account</a>
     </div>
   </div>

@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import PitchMessage from './PitchMessage'
+import PitchMessage from '../components/PitchMessage'
 
 export default {
   components: {
