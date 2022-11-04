@@ -1,12 +1,23 @@
 <template>
+  <Header v-if="headerVisible"/>
   <router-view></router-view>
 </template>
 
 <script>
+import Header from "./components/Header"
 
 export default {
   name: 'App',
   components: {
+    Header
+  },
+  computed: {
+    headerVisible() {
+      if (this.$router.currentRoute.value.path == "/") return false;
+      if (this.$router.currentRoute.value.path == "/login") return false;
+      if (this.$router.currentRoute.value.path == "/register") return false;
+      return true;
+    }
   }
 }
 </script>

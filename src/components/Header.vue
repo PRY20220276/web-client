@@ -5,7 +5,7 @@
       <h2>Project</h2>
     </div>
     <div class="items">
-      <a href="#">Services</a>
+      <router-link to="/services">Services</router-link>
       <a href="#">Pricing</a>
       <a href="#">Gallery</a>
       <a href="#">My Account</a>
@@ -25,6 +25,10 @@ export default {
   height: 10vh;
   align-items: center;
   border-bottom: 1px solid #cbccce;
+}
+
+a.router-link-exact-active {
+  border-bottom: 1px solid black;
 }
 .project-logo {
   display: flex;

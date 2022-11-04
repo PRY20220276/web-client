@@ -18,7 +18,7 @@
           <label for="password">Password</label>
         </span>
         <p>create account? <b><a href="#">Sign up!</a></b></p>
-        <router-link to="/home">
+        <router-link to="/services">
           <Button label="Sign in" />
         </router-link>
         <b><a href="#">Forget Password?</a></b>

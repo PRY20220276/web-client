@@ -13,13 +13,12 @@ import 'primevue/resources/primevue.min.css'                 //core css
 import 'primeicons/primeicons.css'                           //icons
 
 // routes
-import Login from "./components/Login.vue";
-import Header from "./components/Header.vue";
-
+import Login from "./components/Login";
+import Services from "./components/Services";
 
 const routes = [
   { path: '/', component: Login },
-  { path: '/home', component: Header },
+  { path: '/services', component: Services },
 ]
 
 const router = createRouter({
