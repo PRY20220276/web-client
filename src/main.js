@@ -14,9 +14,12 @@ import 'primeicons/primeicons.css'                           //icons
 
 // routes
 import Login from "./components/Login.vue";
+import Header from "./components/Header.vue";
+
 
 const routes = [
   { path: '/', component: Login },
+  { path: '/home', component: Header },
 ]
 
 const router = createRouter({
