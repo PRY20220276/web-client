@@ -29,7 +29,7 @@ export default {
 
 a.router-link-exact-active {
   border-bottom: 1px solid black;
-}
+  }
 .project-logo {
   display: flex;
   align-items: center;

@@ -1,10 +1,14 @@
 <template>
-  Services
+  <PitchMessage />
 </template>
 
 <script>
-export default {
+import PitchMessage from './PitchMessage'
 
+export default {
+  components: {
+    PitchMessage
+  }
 }
 </script>
 
