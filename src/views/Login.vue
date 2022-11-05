@@ -17,7 +17,12 @@
           <InputText id="password" type="password" />
           <label for="password">Password</label>
         </span>
-        <p>create account? <b><a href="#">Sign up!</a></b></p>
+        <p>
+          create account? 
+          <router-link to="/register">
+            <b><a href="#">Sign up!</a></b>
+          </router-link>
+        </p>
         <router-link to="/services">
           <Button label="Sign in" />
         </router-link>
