@@ -23,6 +23,9 @@ export default {
 
 <style scoped>
 .footer {
+    border-top: 1px solid rgb(208, 208, 208);
+    margin-top: 60px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
