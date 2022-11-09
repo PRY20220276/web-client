@@ -6,12 +6,12 @@
         </div>
 
         <div class="services-items">
-            <div class="item">Service 1</div>
-            <div class="item">Service 2</div>
-            <div class="item">Service 3</div>
-            <div class="item">Service 4</div>
-            <div class="item">Service 5</div>
-            <div class="item">Service 6</div>
+            <a href="#" class="item">Service 1</a>
+            <a href="#" class="item">Service 2</a>
+            <a href="#" class="item">Service 3</a>
+            <a href="#" class="item">Service 4</a>
+            <a href="#" class="item">Service 5</a>
+            <a href="#" class="item">Service 6</a>
         </div>
     </section>
 
@@ -45,14 +45,13 @@ export default {
         max-width: 1200px;
         margin-top: 90px;
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-direction: row;
         flex-wrap: wrap;
     }
     .item {
-        width: 350px;
-        height: 150px;
+        width: 320px;
+        height: 140px;
         color: white;
         border: 1px solid var(--blue-600);
         background-color: var(--blue-600);
@@ -61,6 +60,11 @@ export default {
         justify-content: center;
         cursor: pointer;
         margin-bottom: 50px;
+        transition: all 0.4s ease;
+    }
+    .item:hover {
+        transform: scale(1.1);
+        
     }
 
 </style>
