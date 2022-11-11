@@ -61,8 +61,6 @@ export default {
 }
 
 .step-content {
-  border: 1px solid blue;
   margin-top: 5vh;
-
 }
 </style>
