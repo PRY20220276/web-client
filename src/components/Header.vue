@@ -42,6 +42,33 @@ a.router-link-exact-active {
   align-items: center;
   column-gap: 50px;
   margin-right: 50px;
+  transition: all .6s ease;
+  font-weight: bold;
+}
+.items a {
+  transition: all .3s ease;
+}
+.items a:hover {
+  color: var(--blue-600);
+  transform: scale(1.1);
+}
+
+@media (max-width: 740px) {
+  #header {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .project-logo {
+    margin-left: 0;
+  }
+  .items {
+    margin-right: 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+  }
 }
 
 </style>

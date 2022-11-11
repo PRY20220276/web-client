@@ -5,6 +5,7 @@
       <h2>All your content, in one place</h2>
     </div>
     
+    
     <div class="gallery-container">
       <img src="../assets/galleria1.jpg" width="250" height="150">
       <img src="../assets/galleria1.jpg" width="250" height="150">
@@ -16,6 +17,8 @@
       <img src="../assets/galleria1.jpg" width="250" height="150">
       <img src="../assets/galleria1.jpg" width="250" height="150">
     </div>
+    
+    
   </div>
 </template>
 
@@ -26,24 +29,37 @@ export default {
 </script>
 
 <style scoped>
+
+
 #gallery {
   display: flex;
   flex-direction: column;
-  margin-right: 10vw;
-  margin-left: 10vw;
+  justify-content: center;
+  
+  
 }
+.title, .gallery-container {
+  max-width: 1300px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* gallery container */
 
-/* title */
+.gallery-container {
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 .title h2 {
   color: #75777b; /* TODO: create secondary color */
-}
-
-/* gallery container */
-.gallery-container {
-  margin-top: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px 15px;
+  padding: 0;
+  margin: 0;
 }
 
 </style>
