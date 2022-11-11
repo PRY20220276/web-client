@@ -6,12 +6,12 @@
         </div>
 
         <div class="services-items">
-            <a href="#" class="item">Service 1</a>
-            <a href="#" class="item">Service 2</a>
-            <a href="#" class="item">Service 3</a>
-            <a href="#" class="item">Service 4</a>
-            <a href="#" class="item">Service 5</a>
-            <a href="#" class="item">Service 6</a>
+            <router-link to="/steps" class="item">Service 1</router-link>
+            <router-link to="/steps" class="item">Service 2</router-link>
+            <router-link to="/steps" class="item">Service 3</router-link>
+            <router-link to="/steps" class="item">Service 4</router-link>
+            <router-link to="/steps" class="item">Service 5</router-link>
+            <router-link to="/steps" class="item">Service 6</router-link>
         </div>
     </section>
 
