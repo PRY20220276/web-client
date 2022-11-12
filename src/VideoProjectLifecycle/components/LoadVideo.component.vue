@@ -1,13 +1,14 @@
 <template>
   <div id="load-video">
     <div class="file-container">
-      <label class="custom-file">
-      <input type="file" /> Select a video
-    </label>
+      <label class="custom-file"> <input type="file" /> Select a video </label>
     </div>
 
-    <Button label="Next Step" class="p-button-outlined button-next" @click="handelButtonNext()"/>
-    
+    <Button
+      label="Next Step"
+      class="p-button-outlined button-next"
+      @click="handelButtonNext()"
+    />
   </div>
 </template>
 
@@ -15,9 +16,9 @@
 export default {
   methods: {
     handelButtonNext() {
-      this.$router.push('/steps/information')
-    }
-  }
+      this.$router.push("/steps/information");
+    },
+  },
 };
 </script>
 
@@ -49,5 +50,4 @@ input[type="file"] {
 .button-next {
   margin-top: 2%;
 }
-
 </style>

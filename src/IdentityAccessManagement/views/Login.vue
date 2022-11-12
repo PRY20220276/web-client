@@ -1,7 +1,7 @@
 <template>
   <div id="login">
     <div class="project-logo">
-      <img alt="project logo" src="../assets/logo.png" width="50" height="50">
+      <img alt="project logo" src="../../shared/assets/logo.png" width="50" height="50">
       <h2>Project</h2>
     </div>
     <div class="login-form-container">

@@ -1,7 +1,7 @@
 <template>
   <div id="header">
     <div class="project-logo">
-      <img alt="project logo" src="../assets/logo.png" width="40" height="40">
+      <img alt="project logo" src="../../shared/assets/logo.png" width="40" height="40">
       <h2>Project</h2>
     </div>
     <div class="items">
@@ -13,7 +13,7 @@
   </div>
 </template>
 
-<script>
+<script scope>
 export default {
   name: "Header"
 }

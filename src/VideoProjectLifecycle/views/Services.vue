@@ -5,9 +5,9 @@
 </template>
 
 <script>
-import PitchMessage from '../components/PitchMessage'
-import Footer from '../components/Footer'
-import Services from '../components/Services'
+import PitchMessage from '../components/PitchMessage.component.vue'
+import Footer from '../components/Footer.component.vue'
+import Services from '../components/ListServices.component.vue'
 
 export default {
   components: {

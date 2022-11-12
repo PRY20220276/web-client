@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import Router from "./shared/router/router"
 import PrimeVue from 'primevue/config'
-import Router from "./router/router"
 
 // imports vue prime
 import InputText from 'primevue/inputtext'

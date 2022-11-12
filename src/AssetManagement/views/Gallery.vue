@@ -7,15 +7,15 @@
     
     
     <div class="gallery-container">
-      <img src="../assets/galleria1.jpg" width="250" height="150">
-      <img src="../assets/galleria1.jpg" width="250" height="150">
-      <img src="../assets/galleria1.jpg" width="250" height="150">
-      <img src="../assets/galleria1.jpg" width="250" height="150">
-      <img src="../assets/galleria1.jpg" width="250" height="150">
-      <img src="../assets/galleria1.jpg" width="250" height="150">
-      <img src="../assets/galleria1.jpg" width="250" height="150">
-      <img src="../assets/galleria1.jpg" width="250" height="150">
-      <img src="../assets/galleria1.jpg" width="250" height="150">
+      <img src="../../shared/assets/galleria1.jpg" width="250" height="150">
+      <img src="../../shared/assets/galleria1.jpg" width="250" height="150">
+      <img src="../../shared/assets/galleria1.jpg" width="250" height="150">
+      <img src="../../shared/assets/galleria1.jpg" width="250" height="150">
+      <img src="../../shared/assets/galleria1.jpg" width="250" height="150">
+      <img src="../../shared/assets/galleria1.jpg" width="250" height="150">
+      <img src="../../shared/assets/galleria1.jpg" width="250" height="150">
+      <img src="../../shared/assets/galleria1.jpg" width="250" height="150">
+      <img src="../../shared/assets/galleria1.jpg" width="250" height="150">
     </div>
     
     
@@ -35,8 +35,6 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
-  
 }
 .title, .gallery-container {
   max-width: 1300px;
