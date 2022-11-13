@@ -4,7 +4,6 @@ import Router from "./shared/router/router"
 import PrimeVue from 'primevue/config'
 import AttachPrimeVueApp from '@/configuration/PrimeVueComponents'
 
-
 const app = createApp(App)
 AttachPrimeVueApp(app)
 
