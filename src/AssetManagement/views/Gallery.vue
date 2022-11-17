@@ -29,35 +29,27 @@ export default {
 </script>
 
 <style scoped>
-
-
 #gallery {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.title, .gallery-container {
-  max-width: 1300px;
-}
-.title {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 /* gallery container */
-
 .gallery-container {
-  margin-top: 65px;
+  max-width: 1300px;
+  margin-top: 45px;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   gap: 20px;
 }
-.title h2 {
-  color: #75777b; /* TODO: create secondary color */
-  padding: 0;
-  margin: 0;
+.title {
+  text-align: center  ;
 }
+.title h2 {
+  color: #75777b; 
+}
+
+
 
 </style>
