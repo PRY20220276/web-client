@@ -22,53 +22,34 @@ export default {
 <style scoped>
 #header {
   display: flex;
-  height: 10vh;
   align-items: center;
+  justify-content: space-between;
   border-bottom: 1px solid #cbccce;
+  padding: 10px 50px;
 }
-
-a.router-link-exact-active {
-  border-bottom: 1px solid black;
-  }
+a.router-link-exact-active { border-bottom: 1px solid black; }
 .project-logo {
   display: flex;
-  align-items: center;
-  margin-left: 50px;
+  align-items: center;  
 }
 .items {
   display: flex;
-  width: 100%;
   justify-content: flex-end;
   align-items: center;
   column-gap: 50px;
-  margin-right: 50px;
   transition: all .6s ease;
   font-weight: bold;
 }
-.items a {
-  transition: all .3s ease;
-}
-.items a:hover {
-  color: var(--blue-600);
-  transform: scale(1.1);
-}
-
+.items a { transition: all .2s ease; }
+.items a:hover { color: var(--blue-600); }
 @media (max-width: 740px) {
-  #header {
-    flex-direction: column;
-    height: auto;
-    padding-bottom: 20px;
-  }
-  .project-logo {
-    margin-left: 0;
-  }
+  #header { flex-direction: column; }
+  .project-logo { margin-left: 0; }
   .items {
-    margin-right: 0;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
     font-size: 20px;
   }
 }
-
 </style>
