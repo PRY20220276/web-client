@@ -1,6 +1,6 @@
 <template>
   <div id="load-video">
-    <div class="file-container">
+    <div class="file-container center">
       <label class="custom-file"> <input type="file" /> Select a video </label>
     </div>
 
@@ -23,21 +23,13 @@ export default {
 </script>
 
 <style>
-#load-video {
-  margin: 20px;
-}
+#load-video { margin: 20px; }
 
-input[type="file"] {
-  display: none;
-}
+input[type="file"] { display: none; }
 
 .file-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 45vw;
+  max-width: 750px;
   height: 40vh;
-  border-radius: 5px;
   background-color: lightgray;
 }
 
@@ -47,7 +39,5 @@ input[type="file"] {
   border-bottom: 1px solid black;
 }
 
-.button-next {
-  margin-top: 2%;
-}
+.button-next { margin-top: 2%; }
 </style>

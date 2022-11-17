@@ -39,4 +39,10 @@ a {
   color: black;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 </style>
