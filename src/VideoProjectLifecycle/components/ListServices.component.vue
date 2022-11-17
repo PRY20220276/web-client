@@ -6,12 +6,12 @@
     </div>
 
     <div class="services-items">
-      <router-link to="/steps" class="item">Service 1</router-link>
-      <router-link to="/steps" class="item">Service 2</router-link>
-      <router-link to="/steps" class="item">Service 3</router-link>
-      <router-link to="/steps" class="item">Service 4</router-link>
-      <router-link to="/steps" class="item">Service 5</router-link>
-      <router-link to="/steps" class="item">Service 6</router-link>
+      <router-link to="/steps" class="item center">Service 1</router-link>
+      <router-link to="/steps" class="item center">Service 2</router-link>
+      <router-link to="/steps" class="item center">Service 3</router-link>
+      <router-link to="/steps" class="item center">Service 4</router-link>
+      <router-link to="/steps" class="item center">Service 5</router-link>
+      <router-link to="/steps" class="item center">Service 6</router-link>
     </div>
   </section>
 </template>
@@ -43,9 +43,6 @@ h3 { font-weight: 400; }
   height: 140px;
   color: white;
   background-color: var(--blue-600);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 50px;
   transition: all 0.4s ease;
 }
