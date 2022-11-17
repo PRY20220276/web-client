@@ -33,12 +33,6 @@ export default {
   flex-direction: column;
   align-items: center;
 }
-.project-title {
-  display: flex;
-  gap: 20px;
-}
-.copyright,
-.terms {
-  font-size: 20px;
-}
+.project-title h2 { display: inline; }
+.copyright, .terms { font-size: 20px; }
 </style>
