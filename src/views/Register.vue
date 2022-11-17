@@ -27,9 +27,14 @@
             <InputText id="username" type="password" toggleMask/>
             <label for="username">Repeat Password</label>
           </span>
-          <p>create account? <b><a href="#">Sign up!</a></b></p>
-          <Button label="Sign in" />
-          <b><a href="#">Forget Password?</a></b>
+          <p>Do you already have an account?
+            <router-link to="/login">
+              <b><a href="#">Sign in!</a></b>
+            </router-link> 
+            
+          </p>
+          <Button label="Sign up" />
+          
         </form>
       </div>
       
