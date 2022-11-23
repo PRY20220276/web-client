@@ -5,7 +5,6 @@
       <h2>All your content, in one place</h2>
     </div>
     
-    
     <div class="gallery-container">
       <img src="../../shared/assets/galleria1.jpg" width="250" height="150">
       <img src="../../shared/assets/galleria1.jpg" width="250" height="150">
@@ -17,12 +16,10 @@
       <img src="../../shared/assets/galleria1.jpg" width="250" height="150">
       <img src="../../shared/assets/galleria1.jpg" width="250" height="150">
     </div>
-    
-    
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: "Gallery"
 }

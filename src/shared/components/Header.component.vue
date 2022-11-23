@@ -13,7 +13,7 @@
   </div>
 </template>
 
-<script scope>
+<script scope lang="ts">
 export default {
   name: "Header"
 }

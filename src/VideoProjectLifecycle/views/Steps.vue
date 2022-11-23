@@ -6,11 +6,10 @@
     <div class="step-content">
       <router-view></router-view>
     </div>
-    
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 
@@ -51,7 +50,7 @@ export default {
 }
 </script>
 
-<style scoped >
+<style scoped>
 #steps {
   display: flex;
   flex-direction: column;

@@ -1,18 +1,17 @@
 <template>
-  <Header v-if="headerVisible"/>
+  <Header v-if="headerVisible" />
   <router-view></router-view>
 </template>
 
-<script>
+<script lang="ts">
 import Header from "./shared/components/Header.component.vue"
-
 export default {
   name: 'App',
   components: {
     Header
   },
   computed: {
-    headerVisible() {
+    headerVisible() : boolean {
       if (this.$router.currentRoute.value.path == "/") return false;
       if (this.$router.currentRoute.value.path == "/login") return false;
       if (this.$router.currentRoute.value.path == "/register") return false;
@@ -28,21 +27,17 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 body {
   margin: 0px;
   padding: 0px;
 }
-
 a {
   text-decoration:none;
   color: black;
 }
-
 .center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 </style>

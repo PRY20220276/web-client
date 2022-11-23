@@ -12,17 +12,17 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   methods: {
-    handelButtonNext() {
+    handelButtonNext() : void {
       this.$router.push("/steps/information");
     },
   },
 };
 </script>
 
-<style>
+<style scoped>
 #load-video { margin: 20px; }
 
 input[type="file"] { display: none; }

@@ -1,3 +1,5 @@
+import { App } from 'vue'
+
 // styles
 import 'primevue/resources/themes/saga-blue/theme.css'       //theme
 import 'primevue/resources/primevue.min.css'                 //core css
@@ -10,7 +12,7 @@ import Chip from 'primevue/chip';
 import Steps from 'primevue/steps';
 import Toast from 'primevue/toast';
 
-const useComponents = (app) => {
+const useComponents = (app: App<Element>) => {
   app.component('InputText', InputText)
   app.component('Button', Button)
   app.component('Chip', Chip)

@@ -1,30 +1,30 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import * as VueRouter from 'vue-router';
 
-const routes = [
+const routes: VueRouter.RouteRecordRaw[] = [
   {
     path: '/',
-    component: () => import("@/IdentityAccessManagement/views/Login")
+    component: () => import("@/IdentityAccessManagement/views/Login.vue")
   },
   {
     path: '/login',
-    component: () => import("@/IdentityAccessManagement/views/Login")
+    component: () => import("@/IdentityAccessManagement/views/Login.vue")
   },
   {
     path: '/register',
-    component: () => import("@/IdentityAccessManagement/views/Register")
+    component: () => import("@/IdentityAccessManagement/views/Register.vue")
   },
   {
     path: '/services',
-    component: () => import("@/VideoProjectLifecycle/views/Services")
+    component: () => import("@/VideoProjectLifecycle/views/Services.vue")
   },
   {
     path: '/gallery',
-    component: () => import("@/AssetManagement/views/Gallery")
+    component: () => import("@/AssetManagement/views/Gallery.vue")
   },
   {
-
     path: '/steps',
-    component: () => import("@/VideoProjectLifecycle/views/Steps"),
+    component: () => import("@/VideoProjectLifecycle/views/Steps.vue"),
     children: [
       { 
         path: '',
@@ -40,12 +40,11 @@ const routes = [
       }
     ]
   },
-
 ]
 
 const router = createRouter({
   history: createWebHistory(),
-  routes: routes,
+  routes,
 })
 
 export default router
